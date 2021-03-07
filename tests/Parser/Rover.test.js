@@ -1,4 +1,4 @@
-const Rover = require('./../../lib/Parser/Rover');
+const Rover = require('../../lib/Parser/Rover');
 const { describe, it} = require('mocha');
 const assert = require('assert');
 
