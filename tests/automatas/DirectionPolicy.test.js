@@ -1,4 +1,4 @@
-const DirectionPolicy = require('../../lib/automatas/DirectionPolicy');
+const DirectionPolicy = require('../../lib/automata/DirectionPolicy');
 const Rover = require('../../lib/Parser/Rover');
 const { describe, it} = require('mocha');
 const assert = require('assert');
