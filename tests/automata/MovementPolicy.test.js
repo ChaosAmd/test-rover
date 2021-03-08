@@ -28,7 +28,7 @@ describe('Tests the MovementPolicy class', () => {
         const r = new Rover(rover1pos, roverMovs);
         const mp = new MovementPolicy(r);
         mp.move();
-        assert.deepStrictEqual(r.position.x, 4);
+        assert.deepStrictEqual(r.position.x, 6);
     });
 
     it ('Should move west', () => {
@@ -37,6 +37,6 @@ describe('Tests the MovementPolicy class', () => {
         const r = new Rover(rover1pos, roverMovs);
         const mp = new MovementPolicy(r);
         mp.move();
-        assert.deepStrictEqual(r.position.x, 6);
+        assert.deepStrictEqual(r.position.x, 4);
     });
 });
