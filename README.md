@@ -20,6 +20,6 @@ $ npm test
 ## Description
 
 The program heavily emphasizes a logical modular partitioning. The parser assigns the values read from a string,
-that string is loaded by a file module, so the final, the final parsed object is interpreted by the automata, assigned with policies
+that string is loaded by a file module, so the final parsed object is interpreted by the automata, assigned with policies
 that could be expanded or modified.
 
